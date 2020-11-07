@@ -1,0 +1,309 @@
+html, body, div,  applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+body {line-height: 1;font-size:16px;color:#000;background:#fff; font-family: 'Poppins', sans-serif;}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;}
+/*reset css end*/
+@media screen and (max-width:575px){
+body{}
+span{display: block;color: #000;}
+ul li {display: block !important;padding: 10px 0;text-align: center;}
+ul{display: none;}
+.card{margin-top: 30px !important;}
+.heading h2 {font-size: 20px !important;}
+.cap_para p{font-size: 10px !important;}
+.recent {margin-top: 50px !important;}
+.recent h3{font-size: 19px !important;padding-bottom: 18px !important;}
+.card_clr {margin-top: 25px !important;}
+.inner_content h4 {padding-top: 35px !important;font-size: 18px !important;}
+.inner_para p {padding: 0 30px !important;} .inner_para {font-size: 12px !important;}
+.icon {padding-top: 33px !important;font-size: 35px !important;}
+.slide_show {margin-top: 0px !important;}
+.abt{margin-top: 50px !important; }
+.para1 p{font-size: 13px !important;}
+.para2 p{font-size: 13px !important;} 
+.top_footer {margin-top: 50px !important;}
+.social_icon , .copy{text-align: center !important;} .copy p{font-size: 12px;}
+.social_icon a{font-size: 12px;}
+.follow {margin: 10px 0 !important;}
+.container{max-width:95%;}
+.col-1{width:8.33%;}
+/*col width can be defined as let col-1 its width is 1/12*100* and as for col-3 3/12*100*/
+.col-2{width:16.66%;}
+.col-3{width:25%;}
+.col-4{width:33.33%;}
+.col-5{width:41.66%;}
+.col-6{width:50%;}
+.col-7{width:58.33%;}
+.col-8{width:66.66%;}
+.col-9{width:75%;}
+.col-10{width:83.33%;}
+.col-11{width:91.66%;}
+.col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11{
+float:left;padding:0 15px;box-sizing:border-box;}
+}
+@media screen and (min-width:576px) and (max-width:767px){
+body{}
+span{display: block;color: #000;}
+ul li {display: block !important;padding: 10px 0;text-align: center;}
+ul{display: none;}
+.slide_show {margin-top: 0px !important;}
+.card {margin-top: 35px !important;}
+.recent {margin-top: 60px !important;}
+.abt {margin-top: 60px !important;}
+.social_icon , .copy{text-align: center !important;} .copy p{font-size: 12px;}
+.heading h2 {font-size: 25px !important;}
+.cap_para p{font-size: 10px !important;}
+.top_footer {margin-top: 60px;}
+.container{width:540px;}
+.col-sm-1{width:8.33%;}
+/*col width can be defined as let col-1 its width is 1/12*100* and as for col-3 3/12*100*/
+.col-sm-2{width:16.66%;}
+.col-sm-3{width:25%;}
+.col-sm-4{width:33.33%;}
+.col-sm-5{width:41.66%;}
+.col-sm-6{width:50%;}
+.col-sm-7{width:58.33%;}
+.col-sm-8{width:66.66%;}
+.col-sm-9{width:75%;}
+.col-sm-10{width:83.33%;}
+.col-sm-11{width:91.66%;}
+.col-sm-1,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9,.col-sm-10,.col-sm-11{
+float:left;padding:0 15px;box-sizing:border-box;}
+}
+@media screen and (min-width:768px) and (max-width:991px){
+body{}
+span{display: block;color: #000;}
+ul li {display: block !important;padding: 10px 0;text-align: center;}
+ul{display: none;}
+.follow {margin: 12px 0 !important;}
+.social_icon , .copy{text-align: center !important;}
+.slide_show {margin-top: 15px !important;}
+.card {margin-top: 50px !important;}
+.heading h2 {font-size: 23px !important;}
+.recent {margin-top: 60px !important;}
+.container{max-width:720px;}
+.col-md-1{width:8.33%;}
+/*col width can be defined as let col-1 its width is 1/12*100* and as for col-3 3/12*100*/
+.col-md-2{width:16.66%;}
+.col-md-3{width:25%;}
+.col-md-4{width:33.33%;}
+.col-md-5{width:41.66%;}
+.col-md-6{width:50%;}
+.col-md-7{width:58.33%;}
+.col-md-8{width:66.66%;}
+.col-md-9{width:75%;}
+.col-md-10{width:83.33%;}
+.col-md-11{width:91.66%;}
+.col-md-1,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-md-10,.col-md-11{
+float:left;padding:0 15px;box-sizing:border-box;}
+}
+@media screen and (min-width:992px) and (max-width:1199px){
+body{}
+.container{width:960px;}
+.col-lg-1{width:8.33%;}
+/*col width can be defined as let col-1 its width is 1/12*100* and as for col-3 3/12*100*/
+.col-lg-2{width:16.66%;}
+.col-lg-3{width:25%;}
+.col-lg-4{width:33.33%;}
+.col-lg-5{width:41.66%;}
+.col-lg-6{width:50%;}
+.col-lg-7{width:58.33%;}
+.col-lg-8{width:66.66%;}
+.col-lg-9{width:75%;}
+.col-lg-10{width:83.33%;}
+.col-lg-11{width:91.66%;}
+.col-lg-1,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-lg-10,.col-lg-11{
+float:left;padding:0 15px;box-sizing:border-box;}
+}
+@media screen and (min-width:1200px){
+body{}
+.container{width:1140px;}
+.col-xl-1{max-width:8.33%;}
+/*col width can be defined as let col-1 its width is 1/12*100* and as for col-3 3/12*100*/
+.col-xl-2{width:16.66%;}
+.col-xl-3{width:25%;}
+.col-xl-4{width:33.33%;}
+.col-xl-5{width:41.66%;}
+.col-xl-6{width:50%;}
+.col-xl-7{width:58.33%;}
+.col-xl-8{width:66.66%;}
+.col-xl-9{width:75%;}
+.col-xl-10{width:83.33%;}
+.col-xl-11{width:91.66%;}
+.col-xl-1,.col-xl-2,.col-xl-3,.col-xl-4,.col-xl-5,.col-xl-6,.col-xl-7,.col-xl-8,.col-xl-9,.col-xl-10,.col-xl-11{
+float:left;padding:0 15px;box-sizing:border-box;}
+}
+.container{margin:auto;}
+.container-fluid{width: 100%;}
+.fix{clear:both;}
+.text-center{text-align:center;}
+.text-left{text-align:left;}
+.text-right{text-align:center;}
+.text-justify{text-align:justify;}
+.text-uppercase{text-transform:uppercase;}
+.text-lowercase{text-transform:lowercase;}
+.text-capitalize{text-transform:capitalize;}
+.float-right{float:right;}
+.float-left{float:left;}
+.img-fluid{width:100%;height:auto;}
+/*main css start*/
+header{padding-top: 30px}
+.logo h1{font-size: 40px;color: #35c0e6;}
+.menu_main{text-align: right;}
+ul li {list-style:  none;display: inline-block;}
+ul li a{text-decoration: none;margin: 15px;font-size: 15px;color: #000;font-weight: bold;padding: 10px 15px;}
+ul li a:hover{color: #35c0e6; background: }
+.nav{padding: 20px;}
+span{margin: 0 20;font-size: 30px;cursor: pointer;display: none ;}
+.active a{background:#35c0e6;color: #fff;} .active a:hover{color: #fff;}
+/*slider css start*/
+/*slider css end*/
+.slide_show{margin-top: 100px;}
+.mySlides {display: none;}
+/* Slideshow container */
+.slideshow-container {
+max-width: 1000px;
+position: relative;
+margin: auto;
+}
+/* Caption text */
+.text {
+color: #fff;
+font-size: 20px;
+position: relative;
+bottom:220px;
+}
+/* Number text (1/3 etc) */
+.numbertext {
+color: #f2f2f2;
+font-size: 12px;
+padding: 8px 12px;
+position: absolute;
+top: 0;
+}
+/* The dots/bullets/indicators */
+.dot {
+height: 15px;
+width: 15px;
+margin: 0 2px;
+background-color: #bbb;
+border-radius: 50%;
+display: inline-block;
+transition: background-color 0.6s ease;
+}
+.active {
+/*background-color: #717171;*/
+}
+/* Fading animation */
+.fade {
+-webkit-animation-name: fade;
+-webkit-animation-duration: 1.5s;
+animation-name: fade;
+animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+from {opacity: .4}
+to {opacity: 1}
+}
+@keyframes fade {
+from {opacity: .4}
+to {opacity: 1}
+}
+/*card css start*/
+.card{margin-top: 120px;}
+.heading h2{font-size: 37px;color:#35c0e6;}
+.cap_para{margin-top: 32px;}
+.cap_para p{color:#35c0e6;font-size:15px;}
+.recent{margin-top: 120px;}
+.recent h3{color:#35c0e6;font-size:25px;border-bottom: 1px solid lightgrey;padding-bottom: 30px;}
+.card_clr{margin-top: 60px;}
+.row{background: #f9f9f9;border-bottom: 15px solid #35c0e6;}
+.row:hover{box-shadow: 5px 10px 8px #888888;}
+.inner_content h4{padding-top: 60px;font-size: 20px;}
+.icon{padding-top: 40px;font-size: 40px;color:#35c0e6;}
+.inner_para p {padding: 0 45px;}
+.inner_para{margin-top: 30px;color: grey;font-size: 14px;line-height: 1.5;}
+.learn {padding-top: 30px;padding-bottom: 30px;}
+.learn a{color:#35c0e6;text-decoration: none;}
+/*card css end*/
+/*about css start*/
+.abt{margin-top:120px;}
+.abt_main h3{font-size: 22px;color:#35c0e6;}
+.para1 p{margin-top: 30px;line-height: 1.5;color: #545454;}
+.para2 p{margin-top: 30px;line-height: 1.5;color:#545454;}
+/*about css end*/
+/*out team css start*/
+.row2{background: #f9f9f9;border-bottom: 15px solid #35c0e6;margin-top: 40px;}
+.row2:hover{box-shadow: 5px 10px 8px #888888;}
+.team_img{margin-top: 30px;}
+.our_team{margin-top: 80px;}
+/*out team css end*/
+/*footer css start*/
+footer{ }
+.top_footer{margin-top: 120px;}
+.touch h4{color: #35c0e6;}
+.addrs{margin-top: 30px;color: #545454;}
+.addrs p{padding: 5px 0;}
+.addrs h5{color: #000;font-weight: bold;}
+.company{margin-top: 30px;}
+.call{margin-top: 30px;color: #545454;} .call p{padding: 5px 0;}
+.photo{margin-top: 30px;}
+.copy  span{color: #35c0e6;}
+.social_icon{text-align: right;}
+.social_icon a{padding: 0 10px;color: #35c0e6;}
+.follow{margin:30px 0;}
+.border{border: 1px solid lightgrey;}
+.copy span{font-size: 16px !important;}
+/*footer css end*/
+
+/*about arsha css start*/
+/*.abt_arsha{padding-top: 50px;}
+.arsha_border{border-right: 5px solid #0c456c;padding-top: 35px;}
+.about_arsha h2{font-size: 43px;float: right;color: #000;font-weight:700;}
+.about_arsha p{font-size: 43px;font-weight: 700;float: right;color: #000;}
+.arsha_para p{font-size: 18px;color: #545454;}*/
+/*main css end*/
+/*services css start*/
+.service{background-image: url(https://projects.velocityconsultancy.com/Patmark_Renewals/wp-content/uploads/2020/06/Layer2.png);background-size: cover;background-position: center;background-repeat: no-repeat;}
+.our_services{padding: 130px 50px;}
+.inner_heading h3{margin-top: 30px;font-size: 18px;letter-spacing: 4px;font-weight:700;}
+/*.inner_para{padding: 0 40px;}*/
+.inner_para p{color: #939393;font-size: 18px;margin-top: 25px;}
+.btn2 button{border: none;background: transparent;color: #35c0e6;font-size: 14px;margin-top: 50px;font-weight: bold;}
+/*services css end*/
